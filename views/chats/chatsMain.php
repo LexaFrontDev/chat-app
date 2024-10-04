@@ -35,7 +35,7 @@ $chats = $getData->fetchData('chats');
 <div class="container-chats">
     <?php foreach ($chats as $chat): ?>
         <div class="chat">
-
+             <div class="line"></div>
             <div class="wrap-chat-info">
                 <p class="chat_id">ID: <?= htmlspecialchars($chat['id']) ?></p>
                 <p class="chats-name">Name: <?= htmlspecialchars($chat['chat_name']) ?></p>
