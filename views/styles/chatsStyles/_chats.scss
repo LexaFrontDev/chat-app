@@ -1,0 +1,110 @@
+
+
+
+
+
+.nav-list{
+  display: flex;
+  justify-content: space-around;
+
+
+
+  .headChat{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 25px;
+    margin-top: -1px;
+    margin-bottom: 55px;
+  }
+
+  .exit-button{
+    text-decoration: none;
+    color: var(--blood-red);
+    margin-top: 6px;
+
+
+    &:hover{
+      color: var(--color-red);
+    }
+  }
+
+
+  .deleteChatButton{
+    background: transparent;
+    border: 1px solid var(--color-turkey-red);
+    background-color: var(--color-turkey-red);
+    color: var(--blood-red);
+    border-radius: 15px;
+    width: 101px;
+    height: 26px;
+    cursor: pointer;
+    font-size: 11px;
+    margin-top: 6px;
+
+    &:hover{
+      background-color: var(--blood-red);
+      color: var(--color-white);
+    }
+
+  }
+
+}
+
+
+.nameUser{
+  color: var(--color-white);
+}
+
+.messageUser{
+  color: var(--color-white);
+}
+
+
+.messageWrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  z-index: 1000;
+}
+
+#message {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  resize: none;
+  height: 50px;
+  background-color: var(--color-asparagus);
+
+  &:focus{
+   outline: 2px solid var(--color-white);
+    @include box-shadow-medium;
+    color: var(--color-white);
+  }
+}
+
+#send {
+  padding: 10px 20px;
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: var(--color-black);
+  position: absolute;
+  right: 10px;
+  font-size: 42px;
+
+}
+
+#send:hover {
+  color: var(--color-white);
+}

@@ -1,0 +1,32 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --blood-red: #6d0800;
+  --color-red: #E00000;
+  --color-dark-green: #256000;
+  --fonts-guerrilla:  "Protest Guerrilla", sans-serif;
+  --color-green-bold: #2b4522;
+  --color-green-accent: #61a146;
+  --color-Fuchsia-Blue: #7d4fa1;
+  --color-purple: #70008C;
+  --color-turkey-red: #A50202;
+  --color-asparagus: #77A97C;
+  --color-onyx: #32363E;
+  --color-gray: #C8CEC6;
+
+
+
+
+}
+
+.def-l{
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+@mixin box-shadow-medium{
+  -webkit-box-shadow: 4px 4px 68px 51px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 68px 51px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 68px 51px rgba(34, 60, 80, 0.2);
+}
+
